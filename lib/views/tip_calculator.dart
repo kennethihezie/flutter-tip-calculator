@@ -111,9 +111,7 @@ class _TipCalculatorState extends State<TipCalculator> {
                           InkWell(
                             onTap: () {
                               setState(() {
-                                if (_personCounter < 1) {
-                                  _personCounter++;
-                                }
+                                _personCounter++;
                               });
                             },
                             child: Container(
